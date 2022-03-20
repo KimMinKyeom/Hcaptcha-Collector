@@ -82,6 +82,7 @@ class HcaptchaCollector:
             except:
                 pass
 
+            
 if __name__ == "__main__":
     s = requests.session()
     # s.proxies.update({"http": "proxy", 'https': "proxy"}) # Proxies are recommended for bulk collection due to restrictions on requests
