@@ -2,8 +2,13 @@
 Hcapcha image collector for artificial intelligence
 
 
-## Use
-```
+# Key Features
+- Quick image collection
+- Proxy support (http)
+
+
+## Quick Example
+```py
 import hcollector, requests
 
 s = requests.session()
